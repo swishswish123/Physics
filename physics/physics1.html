@@ -9,8 +9,13 @@
             text-align: center;
             background-size: cover;
             }
-      img{
+
+      .commonsymbol{
         width:20%;
+        position: top;
+      }
+      img.commonsymbol{
+        width:10%;
       }
 
       body, html {
@@ -26,6 +31,7 @@
           background-repeat: no-repeat;
           background-size: cover;
           width:100%;
+          font-size: 24px;
           }
 
 
@@ -33,17 +39,23 @@
       .buttons {
           position:fixed;
           top: 40%;
-          align-content: center;
+
           position: absolute;
-          left:40%;
+          left:30%;
+
           background-repeat: no-repeat;
           width: 50%;
           height: 50%;
+          font-size: 100px
+
           }
 
-
+          .btn-lg,
+          .btn-group-lg > .btn {
+  font-size: 80% !important;
+}
       img.symbol{
-        width:50%;
+        width:30%;
         position: fixed;
         top:1%;
         background-repeat: no-repeat;
@@ -58,21 +70,22 @@
 
   </head>
   <body>
+    <img class="commonsymbol" src="../images/symbol.png">
     <img class="symbol" src="../images/pheasy_and_symbol.png"
       <div class="content">
 
         <div class="buttons">
             <a
               href="./physics2.html">
-            <button type="button" class="btn btn-Default btn-lg">GCSEs</button>
+            <button type="button" class="btn btn-Default btn-lg">GCSE</button>
             </a>
 
 
             <a
-            href="./physics3.html"> <button type="button" class="btn btn-Default btn-lg">A-level</button>
+            href="./physics3.html"> <button type="button" class="btn btn-Default btn-lg">  A-level  </button>
             </a>
 
-          
+
           </div>
         </div>
 
